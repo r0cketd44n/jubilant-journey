@@ -13,7 +13,7 @@ unet_VTC = int(input ("how many UNET VTCS?"))
 
 unet_VOIP = int(input("how many UNET VOIP phones? incl STE or VIPEr"))
 
-swsnet_servers = int(input("how many UNET ports are used by servers?")
+unet_servers = int(input("how many UNET ports are used by servers?")
 
 unet_active_drops = unet_seats + unet_cr_drops + unet_printers + unet_VTC + unet_VOIP + unet_servers
 unet_active_drops
